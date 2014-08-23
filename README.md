@@ -19,4 +19,5 @@ clarification on stories.
 
 <img src="project/images/01-home.png">
 <img src="project/images/02-new-movie.png">
-<img src="project/images/03-errors.png">
+<img src="project/images/03-errors-1.png">
+<img src="project/images/04-errors-2.png">
