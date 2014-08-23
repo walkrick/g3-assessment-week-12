@@ -65,5 +65,11 @@
         <text>Year%20can%27t%20be%20blank</text>
       </controlProperties>
     </control>
+    <control controlID="18" controlTypeID="com.balsamiq.mockups::Label" x="337" y="182" w="-1" h="-1" measuredW="139" measuredH="21" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13576743</color>
+        <text>Year%20must%20be%20a%20number</text>
+      </controlProperties>
+    </control>
   </controls>
 </mockup>
