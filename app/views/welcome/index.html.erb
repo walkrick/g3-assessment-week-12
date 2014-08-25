@@ -1,0 +1,11 @@
+<%= link_to "Add Movie", new_movie_path, :class => "btn btn-default", :method => :get %>
+
+
+<% @movies.each do |movie| %>
+
+
+  <h3><%= movie.name %> (<%= movie.year %>)</h3>
+  <p><%= movie.synopsis %></p>
+
+<% end %>
+

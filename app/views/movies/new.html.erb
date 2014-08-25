@@ -1,0 +1,35 @@
+<%= form_for @movie do |f| %>
+
+  <% if @movie.errors.present? %>
+    <div class="errors">
+      <h1>There was an error</h1>
+      <ul class="error-list">
+        <% @movie.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <p>
+    <%= f.label :name, class: "form-label" %><br>
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <%= f.label :year, class: "form-label" %><br>
+    <%= f.text_field :year %>
+  </p>
+
+  <p>
+    <%= f.label :synopsis, class: "form-label" %><br>
+    <%= f.text_field :synopsis %>
+  </p>
+
+
+
+  <p>
+    <%= f.submit class: "form-button" %>
+  </p>
+
+<% end %>
